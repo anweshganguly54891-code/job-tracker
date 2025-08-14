@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#job-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.job {
+    background: #e9ecef;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1 1 calc(33% - 20px); /* 3 items per row with margin */
+    box-sizing: border-box; /* Include padding and margin in width */
+}
+
+.job h3 {
+    margin: 0;
+}
+
+.job button {
+    margin-top: 10px;
+}
