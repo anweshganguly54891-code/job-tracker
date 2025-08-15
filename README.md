@@ -23,4 +23,4 @@ A simple web application to track job applications.
 
 ## Contact
 
-For questions, reach out to [anweshganguly54891@gmail.com]
+For questions, reach out to anweshganguly54891@gmail.com
